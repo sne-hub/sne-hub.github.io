@@ -16,5 +16,15 @@
         doing yoga.
         </h3>  
       </p1>
+       <p2>
+      <h2>Skills</h2>
+      <h3><ul>
+              <li>Java script</li>
+              <li>Latex</li>
+              <li>Microsoft Package</li>
+           </ul>
+        </h3>  
+      </p2>
+
     </article>
   </section>
