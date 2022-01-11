@@ -8,7 +8,8 @@ body {
 h1   {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center
+  text-align: center;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fweb-banner&psig=AOvVaw0Qp-l0rYv5oK8WpyMuM_QU&ust=1642006244413000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjFvIuUqvUCFQAAAAAdAAAAABAZ');
   }
 h2   {
   color: #0000FF;
@@ -23,19 +24,11 @@ ul    {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   }  
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#Projects">Projects</a>
-  <a href="#Contacts">Contacts</a>
-  <a href="#About me">About me</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>  
+  
 </style>
 </head>
 <body>
-<h1>Sinenhlanhla Pearl Magubane</h1>
+<h1>Sinenhlanhla Pearl Magubane</h1> 
 <section>
 <h2>About me</h2>
 <p>As an aspiring web developer, I enjoys
