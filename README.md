@@ -9,7 +9,7 @@ h1   {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-image: url('abstract-geometric-banner-free-vector.jpg');
+  background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
   }
 h2   {
   color: #0000FF;
@@ -80,7 +80,6 @@ ul    {
 <body>
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#home">Home</a>
   <a href="#contact">Contacts</a>
   <a href="#about">About me</a>
 </div>
@@ -100,7 +99,7 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
     window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
-    let dropdowns = document.getElementsByClassName("dropdown-content");
+    var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
