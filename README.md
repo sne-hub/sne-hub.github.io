@@ -18,8 +18,20 @@ h2   {
 p    {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
   }
+ul    {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  }  
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#Projects">Projects</a>
+  <a href="#Contacts">Contacts</a>
+  <a href="#About me">About me</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>  
 </style>
 </head>
 <body>
