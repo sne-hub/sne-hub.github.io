@@ -9,7 +9,7 @@ h1   {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fweb-banner&psig=AOvVaw0Qp-l0rYv5oK8WpyMuM_QU&ust=1642006244413000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjFvIuUqvUCFQAAAAAdAAAAABAZ');
+  background-image: url('abstract-geometric-banner-free-vector.jpg');
   }
 h2   {
   color: #0000FF;
@@ -23,11 +23,70 @@ p    {
 ul    {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
-  }  
+  }
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.show {display:block;}
+    
   
 </style>
+
 </head>
 <body>
+<ul><li>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">more</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Home</a>  
+    <a href="#">About me</a>
+    <a href="#">Contacts</a>
+  </div>
+</div>
+</li>
+</ul>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    let dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 <h1>Sinenhlanhla Pearl Magubane</h1> 
 <section>
 <h2>About me</h2>
