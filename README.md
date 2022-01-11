@@ -24,6 +24,26 @@ ul    {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}  
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -54,15 +74,19 @@ ul    {
 }
 .dropdown-content a:hover {background-color: #f1f1f1}
 .show {display:block;}
-    
-  
 </style>
 
 </head>
 <body>
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#home">Home</a>
+  <a href="#contact">Contacts</a>
+  <a href="#about">About me</a>
+</div>
 <ul><li>
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">more</button>
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="#">Home</a>  
     <a href="#">About me</a>
