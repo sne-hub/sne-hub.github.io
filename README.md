@@ -5,10 +5,10 @@
 body {
   background-color: #B0E0E6;
   }
-  article   {
+article   {
   background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
   }
-h1   {
+h1  {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -46,72 +46,47 @@ ul    {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
-}  
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
 }
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+.container {
+  display: inline-block;
+  cursor: pointer;
 }
-.dropdown {
-    position: relative;
-    display: inline-block;
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
 }
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
 }
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
 }
-.dropdown-content a:hover {background-color: #f1f1f1}
-.show {display:block;}
 </style>
-
 </head>
 <body>
 <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#contact">Contacts</a>
   <a href="#about">About me</a>
-  <div class="dropdown">
-   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-   <div id="myDropdown" class="dropdown-content">
-    <a href="">Home</a>  
-    <a href="">About me</a>
-    <a href="#">Contacts</a>
+  <div class="container" onclick="myFunction(this)">
+   <div class="bar1"></div>
+   <div class="bar2"></div>
+   <div class="bar3"></div>
   </div>
 </div>
-</div>
 <script>
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
+  function myFunction(x) {
+  x.classList.toggle("change");
 }
 </script>
 <article>
 <h1>Sinenhlanhla Pearl Magubane</h1>
+<p1> Web development Student</p1>
 </article> 
 <section>
 <h2>About me</h2>
@@ -129,8 +104,8 @@ I also like watching cartoons and doing yoga.</p>
 <h2>Skills</h2>
 <p><ul>
 <li>JavaScript</li>
-<li>Latex</li>
-<li>Microsoft Package</li>
+<li>HTML</li>
+<li>CSS</li>
 </ul>
 </p></section>
 
