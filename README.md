@@ -85,18 +85,15 @@ ul    {
   <a class="active" href="#home">Home</a>
   <a href="#contact">Contacts</a>
   <a href="#about">About me</a>
-</div>
-<ul><li>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Home</a>  
-    <a href="#">About me</a>
+  <div class="dropdown">
+   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+   <div id="myDropdown" class="dropdown-content">
+    <a href="">Home</a>  
+    <a href="">About me</a>
     <a href="#">Contacts</a>
   </div>
 </div>
-</li>
-</ul>
+</div>
 <script>
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
