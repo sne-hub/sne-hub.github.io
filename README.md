@@ -98,13 +98,13 @@ ul    {
 <body>
 <header>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<div class="topnav">
+<div class="topnav" id="myTopnav">
   <a class="active" href="#home">Home</a>
-  <li><a href="#" target="_blank">Home</a></li>
-  <li><a href="#" target="_blank">About me</a></li>
-  <li><a href="#" target="_blank">Skills</a></li>
-  <li><a href="#" target="_blank">Projects</a></li>
-  <li><a href="#" target="_blank">Contact</a></li>
+  <a href="#home">Home</a>
+  <a href="#about">About me</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contacts">Contacts</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
