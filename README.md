@@ -50,6 +50,29 @@ ul    {
 .topnav .icon {
   display: none;
 }
+.container {
+  display: inline-block;
+  cursor: pointer;
+  float: right ;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+.change .bar2 {
+  opacity: 0;
+}
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -77,11 +100,16 @@ ul    {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="topnav" id="myTopnav">
   <a class="active" href="#home">Home</a>
-  <a href="#home">Home</a>
   <a href="#about">About me</a>
   <a href="#skills">Skills</a>
   <a href="#projects">Projects</a>
   <a href="#contacts">Contacts</a>
+  <div class="container">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  <a href="#about">About</a>  
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
