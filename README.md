@@ -5,14 +5,13 @@
 body {
   background-color: #B0E0E6;
   }
-article   {
+header   {
   background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
   }
 h1  {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
   }
 h2   {
   color: #0000FF;
@@ -84,10 +83,10 @@ ul    {
   x.classList.toggle("change");
 }
 </script>
-<article>
+<header>
 <h1>Sinenhlanhla Pearl Magubane</h1>
-<p1> Web development Student</p1>
-</article> 
+<p> Web development Student</p>
+</header> 
 <section>
 <h2>About me</h2>
 <p>As an aspiring web developer, I enjoys
