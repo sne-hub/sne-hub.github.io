@@ -32,6 +32,7 @@ ul    {
 }
 .topnav a {
   float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -46,10 +47,13 @@ ul    {
   background-color: #04AA6D;
   color: white;
 }
+.topnav .icon {
+  display: none;
+}
 .container {
   display: inline-block;
   cursor: pointer;
-  float: left;
+  float: right ;
 }
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -69,14 +73,41 @@ ul    {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
 }
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 </style>
 </head>
 <body>
 <header>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#contact">Contacts</a>
-  <a href="#about">About me</a>
+  <li><a href="#" target="_blank">Home</a></li>
+  <li><a href="#" target="_blank">About me</a></li>
+  <li><a href="#" target="_blank">Skills</a></li>
+  <li><a href="#" target="_blank">Projects</a></li>
+  <li><a href="#" target="_blank">Contact</a></li>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
   <div class="container" onclick="myFunction(this)">
    <div class="bar1"></div>
    <div class="bar2"></div>
@@ -84,8 +115,13 @@ ul    {
   </div>
 </div>
 <script>
-  function myFunction(x) {
-  x.classList.toggle("change");
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
 </script>
 
