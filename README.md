@@ -50,14 +50,14 @@ ul    {
 .topnav .icon {
   display: none;
 }
-@media screen and (min-width: 482px) {
+@media screen and (min-width: 360px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
-@media screen and (min-width: 482px) {
+@media screen and (min-width: 360px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
