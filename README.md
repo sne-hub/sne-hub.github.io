@@ -11,7 +11,7 @@ header   {
 h1  {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  text-align: left;
   }
 h2   {
   color: #0000FF;
@@ -49,6 +49,7 @@ ul    {
 .container {
   display: inline-block;
   cursor: pointer;
+  float: left;
 }
 .bar1, .bar2, .bar3 {
   width: 35px;
@@ -61,6 +62,9 @@ ul    {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
   transform: rotate(-45deg) translate(-9px, 6px) ;
 }
+.change .bar2 {
+  opacity: 0;
+}
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
   transform: rotate(45deg) translate(-8px, -8px) ;
@@ -68,6 +72,7 @@ ul    {
 </style>
 </head>
 <body>
+<header>
 <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#contact">Contacts</a>
@@ -83,7 +88,7 @@ ul    {
   x.classList.toggle("change");
 }
 </script>
-<header>
+
 <h1>Sinenhlanhla Pearl Magubane</h1>
 <p> Web development Student</p>
 </header> 
