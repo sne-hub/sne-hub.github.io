@@ -1,6 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
+<title>Sinenhlanhla Magubane's website</title>
 <style>
 body {
   background-color: #B0E0E6;
@@ -8,7 +10,7 @@ body {
 header   {
   background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
   }
-title  {
+h1  {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
@@ -71,7 +73,6 @@ ul    {
   }
 }
 </style>
-<title>Sinenhlanhla Pearl Magubane</title>
 </head>
 <body>
 <header>
@@ -96,6 +97,7 @@ ul    {
   }
 }
 </script>
+<h1>Sinenhlanhla Pearl Magubane</h1>
 <p> Web development Student</p>
 </header> 
 <section>
@@ -109,7 +111,6 @@ my mistakes. Outside the professional world I am
 an adventurous person who enjoys camping and hiking.
 I also like watching cartoons and doing yoga.</p>
 </section>
-
 <section>
 <h2>Skills</h2>
 <p><ul>
