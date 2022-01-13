@@ -1,8 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
-<title>Sinenhlanhla Magubane's website</title>
 <style>
 body {
   background-color: #B0E0E6;
@@ -73,10 +72,16 @@ ul    {
   }
 }
 </style>
+<title>Sinenhlanhla's website</title>
 </head>
 <body>
 <header>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1>Sinenhlanhla Pearl Magubane</h1>
+<p> Web development Student</p>
+</header>
+<nav>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="topnav" id="myTopnav">
   <a class="active" href="#home">Home</a>
   <a href="#about">About me</a>
@@ -97,9 +102,7 @@ ul    {
   }
 }
 </script>
-<h1>Sinenhlanhla Pearl Magubane</h1>
-<p> Web development Student</p>
-</header> 
+</nav>
 <section>
 <h2>About me</h2>
 <p>As an aspiring web developer, I enjoys
