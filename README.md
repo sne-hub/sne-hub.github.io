@@ -8,7 +8,7 @@ body {
 header   {
   background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
   }
-h1  {
+title  {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
@@ -71,6 +71,7 @@ ul    {
   }
 }
 </style>
+<title>Sinenhlanhla Pearl Magubane</title>
 </head>
 <body>
 <header>
@@ -87,7 +88,7 @@ ul    {
 </div>
 <script>
   function myFunction() {
-  var x = document.getElementById("myTopnav");
+  let x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
@@ -95,8 +96,6 @@ ul    {
   }
 }
 </script>
-
-<h1>Sinenhlanhla Pearl Magubane</h1>
 <p> Web development Student</p>
 </header> 
 <section>
