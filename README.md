@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <html>
 <head>
 <style>
@@ -72,16 +71,11 @@ ul    {
   }
 }
 </style>
-<title>Sinenhlanhla's website</title>
 </head>
+<title>Sinenhlanhla's9</title>
 <body>
 <header>
-
-<h1>Sinenhlanhla Pearl Magubane</h1>
-<p> Web development Student</p>
-</header>
-<nav>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="topnav" id="myTopnav">
   <a class="active" href="#home">Home</a>
   <a href="#about">About me</a>
@@ -102,7 +96,9 @@ ul    {
   }
 }
 </script>
-</nav>
+<h1>Sinenhlanhla Pearl Magubane</h1>
+<p> Web development Student</p>
+</header> 
 <section>
 <h2>About me</h2>
 <p>As an aspiring web developer, I enjoys
