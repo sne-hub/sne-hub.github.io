@@ -72,8 +72,14 @@ ul    {
 }
 </style>
 </head>
-<title>Sinenhlanhla's9</title>
+<title>Sinenhlanhla's website</title>
 <body>
+<div class ="container-lg px-3 my-5 markdown-body">
+ ::before
+ <h1>
+ <a href="https://sne-hub.github.io/">sne-hub.github.io</a>
+ </h1>
+ <p><!DOCTYPE html></p>
 <header>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="topnav" id="myTopnav">
