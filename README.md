@@ -1,4 +1,3 @@
-<html>
 <head>
 <style>
 body {
@@ -134,4 +133,3 @@ I also like watching cartoons and doing yoga.</p>
 <li><a href="https://www.linkedin.com/in/sinenhlanhla-magubane-bb1190185?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWNOZU%2FqFTfmmeHWNRXl1eg%3D%3D">linkedIn</a></li> <li><a href="https://www.facebook.com/profile.php?id=100012419408320">Facebook</a></li></ul></p>
 </section>
 </body>
-</html> 
