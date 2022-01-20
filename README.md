@@ -87,7 +87,7 @@ ul    {
     <i class="fa fa-bars"></i>
   </a>
 </div>
-<nav>
+</nav>
 <script>
   function myFunction() {
   let x = document.getElementById("myTopnav");
