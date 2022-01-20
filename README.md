@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -102,7 +101,7 @@
                 } else {
                     x.className = "topnav";
                 } +
-}
+            }
         </script>
         <h1>Sinenhlanhla Pearl Magubane</h1>
         <p> Web development Student</p>
