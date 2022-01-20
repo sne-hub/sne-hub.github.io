@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
+<title>Sinenhlanhla's website</title>
 <style>
 body {
   background-color: #B0E0E6;
@@ -71,7 +73,6 @@ ul    {
 }
 </style>
 </head>
-<title>Sinenhlanhla's website</title>
 <body>
 <header>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
