@@ -2,14 +2,15 @@
 <html>
 <head>
 <title>Sinenhlanhla's website</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
   background-color: #B0E0E6;
   }
-header   {
+header.page-header   {
   background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
   }
-h1  {
+header.page-header > h1  {
   color: #000080;
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
@@ -74,8 +75,7 @@ ul    {
 </style>
 </head>
 <body>
-<header>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<header class="page-header">
 <div class="topnav" id="myTopnav">
   <a class="active" href="#home">Home</a>
   <a href="#about">About me</a>
