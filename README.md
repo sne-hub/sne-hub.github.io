@@ -91,7 +91,6 @@
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
-        </nav>
         <script>
             function myFunction() {
                 let x = document.getElementById("myTopnav");
