@@ -81,7 +81,6 @@
 
 <body>
     <header class="page-header">
-        <nav>
             <div class="topnav" id="myTopnav">
                 <a class="active" href="#home">Home</a>
                 <a href="#about">About me</a>
@@ -100,7 +99,7 @@
                     x.className += " responsive";
                 } else {
                     x.className = "topnav";
-                } +
+                }
             }
         </script>
         <h1>Sinenhlanhla Pearl Magubane</h1>
