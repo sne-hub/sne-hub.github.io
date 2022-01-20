@@ -76,6 +76,7 @@ ul    {
 </head>
 <body>
 <header class="page-header">
+<nav>
 <div class="topnav" id="myTopnav">
   <a class="active" href="#home">Home</a>
   <a href="#about">About me</a>
@@ -86,6 +87,7 @@ ul    {
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<nav>
 <script>
   function myFunction() {
   let x = document.getElementById("myTopnav");
@@ -93,7 +95,7 @@ ul    {
     x.className += " responsive";
   } else {
     x.className = "topnav";
-  }
+  }+
 }
 </script>
 <h1>Sinenhlanhla Pearl Magubane</h1>
