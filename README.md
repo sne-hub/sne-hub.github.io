@@ -106,14 +106,7 @@
     </header>
     <section>
         <h2>About me</h2>
-        <p>As an aspiring web developer, I enjoys
-            challenging my self to always
-            improve in my professional life. I
-            take criticism as a way of guidance
-            and a chance to learn and correct
-            my mistakes. Outside the professional world I am
-            an adventurous person who enjoys camping and hiking.
-            I also like watching cartoons and doing yoga.</p>
+        <p>As an aspiring web developer, I enjoy challenging myself to always improve in my professional life. I take criticism as a way of guidance and a chance to learn and correct my mistakes. Outside the professional world, I am an adventurous person who enjoys camping and hiking.I also like watching cartoons and doing yoga.</p>
     </section>
     <section>
         <h2>Skills</h2>
