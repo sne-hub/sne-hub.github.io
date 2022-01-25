@@ -106,7 +106,7 @@
     </header>
     <section>
         <h2>About me</h2>
-        <p>As an aspiring web developer, I enjoy challenging myself to always improve in my professional life. I take criticism as a way of guidance and a chance to learn and correct my mistakes. Outside the professional world, I am an adventurous person who enjoys camping and hiking.I also like watching cartoons and doing yoga.</p>
+        <p>As an aspiring web developer, I enjoy challenging myself to always improve in my professional life. I take criticism as a way of guidance and a chance to learn and correct my mistakes. Outside the professional world, I am an adventurous person who enjoys camping and hiking. I also like watching cartoons and doing yoga.</p>
     </section>
     <section>
         <h2>Skills</h2>
@@ -120,7 +120,7 @@
     </section>
     <section>
         <h2>Projects</h2>
-        <p>The projects that I have worked on can be found on my github page <a
+        <p>The projects that I have worked on can be found on my GITHUB page <a
                 href="https://github.com/sne-hub">here</a></p>
     </section>
     <section>
@@ -128,9 +128,9 @@
         <p>
         <ul>
             <li><a
-                    href="https://www.linkedin.com/in/sinenhlanhla-magubane-bb1190185?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWNOZU%2FqFTfmmeHWNRXl1eg%3D%3D">lINKEDIN</a>
+                    href="https://www.linkedin.com/in/sinenhlanhla-magubane-bb1190185?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWNOZU%2FqFTfmmeHWNRXl1eg%3D%3D">LinkedIn</a>
             </li>
-            <li><a href="https://www.facebook.com/profile.php?id=100012419408320">FACEBOOK</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100012419408320">FaceBook</a></li>
         </ul>
         </p>
     </section>
