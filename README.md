@@ -81,7 +81,7 @@
 
 <body>
     <header class="page-header">
-            <div class="topnav" id="myTopnav">
+            <nav class="topnav" id="myTopnav">
                 <a class="active" href="#home">Home</a>
                 <a href="#about">About me</a>
                 <a href="#skills">Skills</a>
@@ -90,7 +90,7 @@
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
-            </div>
+            </nav>
         <script>
             function myFunction() {
                 let x = document.getElementById("myTopnav");
@@ -104,6 +104,7 @@
         <h1>Sinenhlanhla Pearl Magubane</h1>
         <p> Web development Student</p>
     </header>
+    <main>
     <section>
         <h2>About me</h2>
         <p>As an aspiring web developer, I enjoy challenging myself to always improve in my professional life. I take criticism as a way of guidance and a chance to learn and correct my mistakes. Outside the professional world, I am an adventurous person who enjoys camping and hiking. I also like watching cartoons and doing yoga.</p>
@@ -135,5 +136,6 @@
         </p>
     </section>
 </body>
+</main>
 
 </html>
