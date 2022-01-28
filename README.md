@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>Sinenhlanhla's website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -78,8 +77,6 @@
         }
     </style>
 </head>
-
-<body>
     <header class="page-header">
             <nav class="topnav" id="myTopnav">
                 <a class="active" href="#home">Home</a>
@@ -135,7 +132,5 @@
         </ul>
         </p>
     </section>
-</body>
 </main>
-
 </html>
