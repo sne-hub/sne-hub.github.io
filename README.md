@@ -1,4 +1,4 @@
-<html>
+<html> 
 <head>
     <title>Sinenhlanhla's website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -74,9 +74,20 @@
                 display: block;
                 text-align: left;
             }
+            .container {
+            background-color: #B0E0E6;
+            display: grid;
+            }
         }
     </style>
 </head>
+<div class="container-lg px-3 my-5 markdown-body">
+    ::before 
+    <h1>
+        <a href="https://sne-hub.github.io/">sne-hub.github.io</a>
+    </h1>
+    <p><!DOCTYPE html></p>
+  </div>
     <header class="page-header">
             <nav class="topnav" id="myTopnav">
                 <a class="active" href="#home">Home</a>
