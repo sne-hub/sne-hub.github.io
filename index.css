@@ -2,21 +2,41 @@
     background-color: #B0E0E6;
     display: grid;
     width: 100%;
-    grid-template-rows: auto auto auto;
-    grid-gap: 3px;
+    grid-template-rows: repeat(7, auto);
+    grid-gap: 1px;
+    grid-template-areas:
+    "n"
+    "h"
+    "a"
+    "s"
+    "p"
+    "c"
+    "f"
 }
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 body {
     background-color: #B0E0E6;
 }
 
-.header.page-header {
+.header {
+    text-align: center;
+    grid-area: h;
     background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
 }
 
-.header.page-header>h1 {
+#page-header {
     color: #000080;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+}
+.occupation{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -33,11 +53,41 @@ p {
 ul {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+   
+}
+.section-text {
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+
+}
+.about-me {
+    grid-area: a;
+    margin-top: 0px;
 }
 
+.skills {
+    grid-area: s;
+}
+.projects {
+    grid-area: p;
+}
+.contacts {
+    grid-area: c;
+}
+.info-footer {
+    grid-area: f;
+    background-color: #d3d3d3;
+    color: #696969;
+}
 .topnav {
+    grid-area: n;
     overflow: hidden;
+    position: sticky;
+    padding-top: 5px;
     background-image: url('https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=');
+   
 }
 
 .topnav a {
@@ -64,10 +114,6 @@ ul {
     display: none;
 }
 
-.container {
-    background-color: #B0E0E6;
-    display: grid;
-}
 
 @media screen and (min-width: 320px) {
     .topnav a:not(:first-child) {
