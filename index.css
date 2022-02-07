@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 .container {
     background-color: #B0E0E6;
     display: grid;
@@ -7,7 +5,6 @@
     grid-template-rows: auto auto auto;
     grid-gap: 3px;
 }
->>>>>>> 4dc695402b44c77617cf7390e0a466dcc7e89e41
 body {
     background-color: #B0E0E6;
 }
@@ -67,13 +64,10 @@ ul {
     display: none;
 }
 
-<<<<<<< HEAD
 .container {
     background-color: #B0E0E6;
     display: grid;
 }
-=======
->>>>>>> 4dc695402b44c77617cf7390e0a466dcc7e89e41
 
 @media screen and (min-width: 320px) {
     .topnav a:not(:first-child) {
@@ -102,8 +96,4 @@ ul {
         display: block;
         text-align: left;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4dc695402b44c77617cf7390e0a466dcc7e89e41
