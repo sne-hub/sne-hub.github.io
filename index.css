@@ -53,12 +53,13 @@ p {
 ul {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
    
 }
 .section-text {
     padding-left: 45px;
     padding-right: 45px;
-    text-align: left;
+    text-align: center;
 
 }
 .about-me {
