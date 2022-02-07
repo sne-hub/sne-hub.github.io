@@ -2,7 +2,7 @@
     background-color: #B0E0E6;
     display: grid;
     width: 100%;
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(7, auto);
     grid-gap: 3px;
     grid-template-areas:
     "n"
