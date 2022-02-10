@@ -5,13 +5,13 @@
     grid-template-rows: repeat(7, auto);
     grid-gap: 1px;
     grid-template-areas:
-    "n"
-    "h"
-    "a"
-    "s"
-    "p"
-    "c"
-    "f"
+    "navigation"
+    "header"
+    "about-me"
+    "skills"
+    "projects"
+    "contacts"
+    "footer"
 }
 body,
 html {
