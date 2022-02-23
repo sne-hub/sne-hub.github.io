@@ -1,5 +1,5 @@
 .container {
-  background-color: #b0e0e6;
+  background-color: whitesmoke;
   display: grid;
   width: 100%;
   grid-template-rows: repeat(7, auto);
