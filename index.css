@@ -31,7 +31,7 @@ body {
 
 #page-header {
   color: #000080;
-  font-size: 70px;
+  font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
@@ -43,13 +43,15 @@ body {
 
 h1 {
   color: #000080;
+  border: 7px double #5959ab;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 70px;
+  font-size: 35px;
   text-align: center;
   background-color: powderblue;
 }
 .sub-heading {
   color: #000080;
+  border: 7px double #5959ab;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
