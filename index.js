@@ -6,15 +6,3 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-window.onscroll = function() {myFunction()};
-
-const topNav = document.getElementById("topNav");
-const sticky = topNav.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    topNav.classList.add("sticky")
-  } else {
-    topNav.classList.remove("sticky");
-  }
-}
