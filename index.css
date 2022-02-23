@@ -40,16 +40,16 @@ body {
 }
 
 h1 {
-  color: #0000ff;
+  color: aquamarine;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color:aquamarine;
+  background-color: #000080;
 }
 .sub-heading {
-  color: #000080;
+  color: aquamarine;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color:aquamarine;
+  background-color: #000080;
 }
 p {
   color: #000000;
@@ -85,9 +85,6 @@ p {
   overflow: hidden;
   position: sticky;
   padding-top: 5px;
-  width: 100%;
-  margin-block-end: 0px;
-  z-index: 1;
   background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
 }
 
