@@ -8,13 +8,13 @@ function myFunction() {
 }
 window.onscroll = function() {myFunction()};
 
-const navbar = document.getElementById("navbar");
-const sticky = navbar.offsetTop;
+const topNav = document.getElementById("navbar");
+const sticky = topNav.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    topNav.classList.add("sticky")
   } else {
-    navbar.classList.remove("sticky");
+    topNav.classList.remove("sticky");
   }
 }
