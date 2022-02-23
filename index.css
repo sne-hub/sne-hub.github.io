@@ -41,7 +41,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+.main-heading {
   color: #000080;
   border: 7px double #5959ab;
   font-family: Arial, Helvetica, sans-serif;
