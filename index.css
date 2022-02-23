@@ -51,11 +51,10 @@ h1 {
 }
 .sub-heading {
   color: #000080;
-  border: 7px double #5959ab;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-color: powderblue;
+ 
 }
 p {
   color: #000000;
