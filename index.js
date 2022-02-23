@@ -8,7 +8,7 @@ function myFunction() {
 }
 window.onscroll = function() {myFunction()};
 
-const topNav = document.getElementById("navbar");
+const topNav = document.getElementById("topNav");
 const sticky = topNav.offsetTop;
 
 function myFunction() {
