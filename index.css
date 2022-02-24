@@ -112,7 +112,7 @@ p {
   color: black;
 }
 
-.topnav a.active {
+.active {
   background-color: #04aa6d;
   color: white;
 }
