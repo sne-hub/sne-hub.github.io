@@ -26,7 +26,6 @@ body {
 .header {
   text-align: center;
   grid-area: header;
-  position: relative;
   background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
 }
 
@@ -122,13 +121,13 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) {
   .topnav a:not(:first-child) {
     display: none;
   }
 
   .topnav a.icon {
-    float: left;
+    float: right;
     display: block;
   }
 }
@@ -139,7 +138,7 @@ p {
   }
 
   .topnav.responsive a.icon {
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
   }
