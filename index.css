@@ -90,7 +90,6 @@ p {
   width: 100%;
   float: auto;
   margin-block-end: 0px;
-  z-index: 1;
   overflow: hidden;
   position: fixed;
   top: 0px;
@@ -116,7 +115,10 @@ p {
   background-color: #04aa6d;
   color: white;
 }
-
+.topnav a.responsive {
+  background-color: #04aa6d;
+  color: white;
+}
 .topnav .icon {
   display: none;
 }
@@ -127,7 +129,7 @@ p {
   }
 
   .topnav a.icon {
-    float: left;
+    float: right;
     display: block;
   }
 }

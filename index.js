@@ -6,3 +6,9 @@ function myFunction() {
         x.className = "topnav";
     }
 }
+const links = document.getElementsByTagName("a")
+for(let i = 1; i< links.length ; i++){
+    links[i].addEventListener("click", function(){
+        myFunction()
+    })
+}
