@@ -91,7 +91,9 @@ p {
   float: auto;
   margin-block-end: 0px;
   overflow: hidden;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1; 
   top: 0px;
   background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
 }
