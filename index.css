@@ -61,7 +61,7 @@ html {
 .right-images {
   transform: scaleX(-1);
   float: right;
-  margin: 0px 0px 0px 100%;
+  /* margin: 0px 0px 0px 100%; */
 
 }
 .center-images {
@@ -71,7 +71,6 @@ html {
   width: 100px;
   height: 100px;
   
-
 
 }
 .occupation {
