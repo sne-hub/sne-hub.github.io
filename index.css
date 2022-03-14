@@ -2,30 +2,30 @@
   background-color: whitesmoke;
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(20, auto);
   grid-gap: 1px;
   grid-template-areas:
-    "navigation navigation navigation "
-    "header     header     header"
-    "header     header     header"
-    "header     header     header"
-    "header     header     header"
-    "about-me   about-me   about-me"
-    "about-me   about-me   about-me"
-    "about-me   about-me   about-me"
-    "skills     skills     skills"
-    "skills     skills     skills"
-    "skills     skills     skills"
-    "projects   projects   projects"
-    "projects   projects   projects"
-    "projects   projects   projects"
-    "interests  interests  interests"
-    "interests  interests  interests"
-    "interests  interests  interests"
-    "contacts   contacts   contacts"
-    "contacts   contacts   contacts"
-    "footer     footer     footer";
+    "navigation navigation navigation navigation navigation"
+    "header     header     header     header     header"
+    "header     header     header     header     header"
+    "header     header     header     header     header"
+    "header     header     header     header     header"
+    "about-me   about-me   about-me   about-me   about-me"
+    "about-me   about-me   about-me   about-me   about-me"
+    "about-me   about-me   about-me   about-me   about-me"
+    "skills     skills     skills     skills     skills"
+    "skills     skills     skills     skills     skills"
+    "skills     skills     skills     skills     skills"
+    "projects   projects   projects   projects   projects "
+    "projects   projects   projects   projects   projects "
+    "projects   projects   projects   projects   projects "
+    "interests  interests  interests  interests  interests"
+    "interests  interests  interests  interests  interests"
+    "interests  interests  interests  interests  interests"
+    "contacts   contacts   contacts   contacts   contacts"
+    "contacts   contacts   contacts   contacts   contacts"
+    "footer     footer     footer     footer     footer";
 }
 body,
 html {
