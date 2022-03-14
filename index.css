@@ -34,14 +34,14 @@ html {
 }
 .header {
   grid-area: header;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 #image {
   grid-area: header;
-  right: 30px;
-  top: 10px; 
+  margin-right: 30px;
+  margin-top: 10px;
   float: right;
-  width: 290px; 
+  width: 290px;
   padding: 10px;
   object-fit: cover;
 }
@@ -51,27 +51,20 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
-#all-images  {
+#all-images {
   object-fit: cover;
   margin: 0px 20px 0px 20px;
   width: 100px;
   height: 100px;
-  
 }
 .right-images {
   transform: scaleX(-1);
   float: right;
-  margin: 0px 0px 0px 100%;
-
 }
 .center-images {
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  height: 100px;
-  
-
+  transform: scaleX(-1);
+  float: center;
+  padding: 0px 300px 0px 20px;
 }
 .occupation {
   text-align: left;
@@ -133,12 +126,11 @@ p {
   overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
-  padding: 3px 0px 3px 0px; 
+  padding: 3px 0px 3px 0px;
   top: 0px;
   text-align: center;
   background-color: black;
   z-index: 1;
- 
 }
 
 .topnav a {
@@ -175,7 +167,6 @@ p {
   .topnav a.icon {
     float: right;
     display: block;
-    
   }
 }
 
@@ -188,13 +179,11 @@ p {
     position: relative;
     right: 0;
     top: 0;
-    
   }
 
   .topnav.responsive a {
     float: left;
     display: block;
     text-align: right;
-    
   }
 }
