@@ -62,13 +62,13 @@ html {
 .right-images {
   transform: scaleX(-1);
   float: right;
-  margin: 0px 0px 0px 100%;
+  /* margin: 0px 0px 0px 100%; */
 
 }
 .center-images {
   transform: scaleX(-1);
   float: center;
-  margin: 0px 250px 0px 250px;
+  margin: 0px 300px 0px 300px;
   width: 100px;
   height: 100px;
   
