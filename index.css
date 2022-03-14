@@ -54,10 +54,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
 }
-#all-images {
-  grid-area: header;
-  width: 100%; 
-  position: absolute;
+#all-images  {
+  object-fit: cover;
+  margin: 0px 20px 0px 20px;
+  width: 100px;
+  height: 100px;
+}
+.right-images {
+  transform: scaleX(-1);
+  float: right;
+
 }
 .occupation {
   text-align: left;
