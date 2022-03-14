@@ -64,7 +64,7 @@ html {
 .center-images {
   transform: scaleX(-1);
   float: center;
-  padding: 0px 250px 0px 250px;
+  padding: 0px 200px 0px 200px;
 }
 .occupation {
   text-align: left;
