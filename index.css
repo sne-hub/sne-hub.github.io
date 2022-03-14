@@ -58,14 +58,9 @@ html {
   height: 100px;
 }
 .right-images {
-  transform: scaleX(-1);
   float: right;
 }
-.center-images {
-  transform: scaleX(-1);
-  float: center;
-  padding: 0px 200px 0px 200px;
-}
+
 .occupation {
   text-align: left;
   font-size: 25px;
