@@ -1,5 +1,5 @@
 .container {
-  background-color: whitesmoke;
+  background-color: grey;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(5, auto);
@@ -34,7 +34,7 @@ html {
 }
 .header {
   grid-area: header;
-  background-color: #f5f5f5;
+  background-color: grey;
 }
 #image {
   grid-area: header;
@@ -141,10 +141,10 @@ p {
   color: black;
 }
 
-.topnav a.active {
+/* .topnav a.active {
   background-color: #04aa6d;
   color: white;
-}
+} */
 .topnav a.responsive {
   background-color: #04aa6d;
   color: white;
