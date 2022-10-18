@@ -20,6 +20,11 @@ html {
 
 
 }
+#icons{
+  width: 20px;
+  height:20px;
+  color:#000080;
+}
 .background{
   width: 100%;
   height: 100%; 
@@ -146,7 +151,7 @@ nav{
   display: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -157,7 +162,7 @@ nav{
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
   .topnav.responsive {
     position: relative;
   }
