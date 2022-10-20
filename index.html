@@ -1,84 +1,115 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sinenhlanhla's website</title>
-    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Trirong|Sofia" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
+    <title>Sinenhlanhla's portfolio</title>
 </head>
 
 <body>
-    <div class="header">
-        <img class="background" src="code.jpg" alt="code">
-        <div class="headerText">
-            <img id="image" src="sine.jpg" alt="sine's picture">
-            <h2>
-                Hi! I'm Sinenhlanhla </br>Magubane
-            </h2>
 
-            <h2>and I am a full-stack web developer</h2>
-            <button id="button" class="button">click to get to know me</button>
+    <div class="home" id="home">
+        <header>
+            <nav class="nav-bar">
+                    <ul class="nav-menu" id="menu">
+                        <li class= "nav-item" >
+                            <a href="#home" id="active" class="nav-link">home</a>
+                        </li>
+                        <li class= "nav-item">
+                            <a href="#about-me" class="nav-link">About</a>
+                        </li>
+                        <li class= "nav-item" >
+                            <a href="#skills" class="nav-link">Skills</a>
+        
+                        </li>
+                        <li  class= "nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+        
+                        </li>
+                        <li class= "nav-item" >
+                            <a href="#interests" class="nav-link">Hobbies</a>
+        
+                        </li>
+                        <li class= "nav-item">
+                            <a href="#contacts" class="nav-link">Contacts</a>
+        
+                        </li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar" id="item1"></span>
+                        <span class="bar" id="item2"></span>
+                        <span class="bar" id="item3"></span>
+                    </div>
+            </nav>
+            </header>
+        <div class=" home-container home-inner">
+            <img id="image" src="sine.jpg" alt="sine's picture">
+
+            <h1>
+                Hi! I'm Sinenhlanhla <br>Magubane
+            </h1>
+
+            <p>and I am a full-stack web developer</p>
 
         </div>
+
     </div>
     <div class="container">
-        <nav class="topnav" id="topNav">
-            <a href="#home" class="active">home</a>
-            <a href="#about-me" >About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#interests">Hobbies</a>
-            <a href="#contacts">Contacts</a>
-            <a href="javascript:void(0);" class="icon">
-                <i class="fa fa-bars"></i>
-                <script src="index.js"></script>
-            </a>
-        </nav>
-
-
         <div class="about-me" id="about-me">
-            <h1 class="main-heading">About me</h1>
-            <h2 class="sub-heading">Here is My Story</h2>
-            <p class="section-text">
+            <h1>About me</h1>
+            <h2>Here is My Story</h2>
+            <br>
+
+            <p>
                 As a web developer, I enjoy challenging myself to always improve in my professional
                 life. I also take criticism as a way of guidance and a chance to learn and correct my mistakes.</p>
 
-            <h2 class="sub-heading">Journey to web development</h2>
-            <p class="section-text">
+            <h2>Journey to web development</h2>
+            <br>
+
+            <p>
                 My journey to web development started in 2020 when I enrolled on data engineering through an online
                 institution. At first, I was just interested in coding, but then when I started with data
                 engineering I realised that it was more statistics than actual coding which is what I am interested
                 in. In 2021 while I was doing my research on web development and looking for institutions that offer
                 it, I came across Umuzi Academy and attended the boot camp, and that is what I am currently doing.
             </p>
-            <img id="all-images" src="journey.jpg" alt="journey picture">
-            <img id="all-images" class="right-images" src="road.png" alt="road picture">
+            <img class="left-images" src="journey.jpg" alt="journey picture">
+            <img class="right-images" src="road.png" alt="road picture">
         </div>
         <div class="skills" id="skills">
-            <h1 class="main-heading">Skills</h1>
-            <h2 class="sub-heading">Skills learnt to date</h2>
-            <p class="section-text">
+            <h1>Skills</h1>
+            <h2>Skills learnt to date</h2>
+            <br>
+
+            <p>
                 Since I began this journey, I have used Visual Studio Code (VSCode) as a code editor, with it I
                 have been able to code in javascript using javascript algorithms, as well as in HTML and CSS while
                 building this site. The version control software that I have used and still using to share my
                 codes and to collaborate with teams in projects are Git and GIT-HUB. I have also used Node.js,
-                PostgreSQL and JQuery to create APIs</br>
-                </br>
+                PostgreSQL and JQuery to create APIs<br>
+                <br>
                 I am currently learning Python but I am also interested in learning another language such as JAVA.
-                Please view my <a href="sinenhlanhla.magubane.pdf" download="sinenhlanhla-magubane-cv">CV</a> to find
+                Please view my <a href="sinenhlanhla.magubane.pdf" download="sinenhlanhla-magubane-cv">CV</a> to
+                find
                 out
                 more about my other skills.
             </p>
-            <img id="all-images" src="comp.webp" alt="computer">
-            <img id="all-images" class="right-images" src="comp.webp" alt="computer">
+            <img class="left-images" src="comp.webp" alt="computer">
+            <img class="right-images" src="comp.webp" alt="computer">
         </div>
         <div class="projects" id="projects">
-            <h1 class="main-heading">Projects</h1>
+            <h1>Projects</h1>
+            <br>
 
-            <p class="section-text">
+
+            <p>
                 The projects that I have worked on in collaboration with my colleagues can be found on my GITHUB
                 page
                 <a href="https://github.com/sne-hub" target="_blank">
@@ -86,9 +117,10 @@
             </p>
         </div>
         <div class="interests" id="interests">
-            <h1 class="main-heading">Hobbies and Interests</h1>
-            <h2 class="sub-heading">What I enjoy doing outside work</h2>
-            <p class="section-text">
+            <h1>Hobbies and Interests</h1>
+            <h2>What I enjoy doing outside work</h2>
+            <br>
+            <p>
                 Prior to studying web development, I studied geology and that is where my love for the
                 outdoors
                 started.
@@ -97,40 +129,36 @@
                 like
                 to relax with cartoons and yoga.
             </p>
-            <img id="all-images" src="hiking.jpg" alt="hiking picture">
-            <img id="all-images" class="right-images" src="yoga.jpg" alt="yoga picture">
+            <img class="left-images" src="hiking.jpg" alt="hiking picture">
+            <img class="right-images" src="yoga.jpg" alt="yoga picture">
         </div>
         <div class="contacts" id="contacts">
-            <h1 class="main-heading">Ready to Connect? :)</h1>
-
-            <p class="section-text">
+            <h1>Ready to Connect? :)</h1>
+            <br>
+            <p>
                 Why not send me an email <a href="mailto:snemagubane06@gmail.com"><i class="fa fa-envelope"
-                        aria-hidden="true" id="icons"></i>
-                </a>?
-                </br>
+                        aria-hidden="true"></i>
+                </a> ?
+                <br>
                 You can also reach me on the following platforms at any time:
-                </br>
+                <br>
                 <a href="https://www.linkedin.com/in/sinenhlanhla-magubane-bb1190185?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWNOZU%2FqFTfmmeHWNRXl1eg%3D%3D"
-                    target="_blank"><i class="fa fa-linkedin" aria-hidden="true" id="icons"></i></a>
-                </br>
+                    target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <br>
                 <a href="https://www.facebook.com/profile.php?id=100012419408320" target="_blank"><i
-                        class="fa fa-facebook" aria-hidden="true" id="icons"></i>
+                        class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
             </p>
-            <img id="all-images" src="phone.jpg" alt="contacts picture">
-            <img id="all-images" class="right-images" src="phone.jpg" alt="contacts picture">
+            <img class="right-images" src="phone.jpg" alt="contacts picture">
         </div>
         <div class="info-footer">
             <p class="footer-text">
                 Future updates will be made to this website.Copyright © 2022
             </p>
-            <button id="home" class="button">click to get to go home</button>
 
         </div>
-
-
     </div>
-
+    <script src="./index.js" defer></script>
 </body>
 
 </html>

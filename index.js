@@ -1,29 +1,14 @@
-
-function myFunction() {
-  const element = document.getElementById("topNav");
-  if (element.className === "topnav") {
-    element.className += " responsive";
-  } else {
-    element.className = "topnav";
-  }
-}
-const links = document.getElementsByTagName("a");
-for (let i = 1; i < links.length; i++) {
-  links[i].addEventListener("click", function () {
-    myFunction();
-  });
-}
-const container = document.querySelector(".container");
-const header = document.querySelector(".header");
-const button = document.getElementById("button");
-
-button.addEventListener("click", () => {
-  container.style.display = "block";
-  header.style.display = "none";
-  const buttons= document.querySelectorAll(".button")
-  buttons[1].addEventListener("click", () => {
-    container.style.display = "none";
-    header.style.display = "block";
-  });
-});
-
+const hamburger = document.querySelector(".hamburger")
+const navMenu = document.querySelector(".nav-menu")
+const home = document.querySelectorAll(".home")
+const otherSpans= Array(document.querySelectorAll(".container")[0].children)
+hamburger.addEventListener("click", ()=>{
+    hamburger.classList.toggle("active")
+    navMenu.classList.toggle("active")
+})
+document.querySelectorAll(".nav-link").forEach(element=>{
+    element.addEventListener("click", ()=>{
+        hamburger.classList.remove("active")
+        navMenu.classList.remove("active")
+    } )
+})
