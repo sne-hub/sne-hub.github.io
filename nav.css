@@ -90,4 +90,8 @@ a {
     .nav-menu.active{
         left:0
     }
+    .home {
+        height: 40rem;
+        position: relative;
+    }
 }
