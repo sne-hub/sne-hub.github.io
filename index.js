@@ -1,8 +1,6 @@
 const hamburger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".nav-menu")
 const home = document.querySelectorAll(".home")
-const button = document.getElementById("button")
-const otherSpans= document.querySelectorAll(".container")
 hamburger.addEventListener("click", ()=>{
     hamburger.classList.toggle("active")
     navMenu.classList.toggle("active")
@@ -16,7 +14,4 @@ document.querySelectorAll(".nav-link").forEach(element=>{
         otherSpans[0].style.display="block"
 
     } )
-})
-button.addEventListener("click", ()=>{
-    otherSpans[0].style.display="block"
 })
